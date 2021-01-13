@@ -2,13 +2,13 @@
 
 This repo contains course website templates for Micromouse, HOPE, and Cybersecurity DeCals.
 
-*Micromouse - https://ieee.berkeley.edu/micromouse *
+**Micromouse - https://ieee.berkeley.edu/micromouse**
 
-*Hands-On PCB Engineering (HOPE) - https://ieee.berkeley.edu/hope *
+**Hands-On PCB Engineering (HOPE) - https://ieee.berkeley.edu/hope**
 
-*Cybersecurity - https://ieee.berkeley.edu/cybersecurity *
+**Cybersecurity - https://ieee.berkeley.edu/cybersecurity**
 
-Websites are developed for the darkweb theme (see IEEEBerkeley/darkweb for the theme).
+Websites are developed for the darkweb theme. See IEEEBerkeley/darkweb https://github.com/IEEEBerkeley/darkweb for the theme. Check the decal branch for the most recent decal-related development version.
 
 Last updated: Jan 14th, 2021 (Spring '21)
 
@@ -54,7 +54,21 @@ If the CSS is already theme embedded, don't worry about this part.
 It is recommended to contact a website team for this but the steps are as following:
 
 1. Git clone IEEEBerkeley/darkweb onto your local computer
-2. Create a new file called *yourdecalname*
-2. 
+2. Create a new file called *page-yourdecalname-currentsemester.hbs* (example: page-micromouse-fa20.hbs)
+3. Make sure the contents of your new file is identical to *page-yourdecalname.hbs*
+4. Compress the theme using ```npm run zip``` inside the src directory (see IEEEBerkeley/darkweb instructions)
+5. Upload the theme on ghost under the designs tab
+6. Open the Ghost page editor and change the published URL to *yourdecalname-currentsemester*
+7. Make a copy of the current page and publish the page under *yourdecalname*
+8. Done! You have successfully archived a previous version of the website and created a new version of the website! Edit the contents of the website accordingly and you are all set.
 
 ## Troubleshooting / FAQ
+
+**The header/footer breaks on my DeCal's website**
+This is probably due to CSS conflicts. If the theme's CSS classes and decalwebsite CSS collide with each other (same name), the header/footer inherits the decalwebsite CSS as the priority. Make sure to check if you have added any external stylesheets or scripts that cause such collisions.
+
+**My DeCal's website looks too wide**
+This is due to *page-yourdecalname.hbs* inheriting an old version of the theme. You can edit decalDefault.hbs to set the page width.
+
+**If all else fails**
+Contact John Lee through Slack and I will come help :)
