@@ -14,7 +14,8 @@ Last updated: Jan 14th, 2021 (Spring '21)
 
 ## Files
 
-Raw HTML files and CSS are included in this repo. 
+Raw HTML, CSS, and relevant Handlebars files are included in this repo. Previous versions saved under each semester's folder name.
+
 See **instructions** on how to deploy it on Ghost.
 
 ## Instructions
