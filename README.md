@@ -65,10 +65,13 @@ It is recommended to contact a website team for this but the steps are as follow
 ## Troubleshooting / FAQ
 
 **The header/footer breaks on my DeCal's website**
+
 This is probably due to CSS conflicts. If the theme's CSS classes and decalwebsite CSS collide with each other (same name), the header/footer inherits the decalwebsite CSS as the priority. Make sure to check if you have added any external stylesheets or scripts that cause such collisions.
 
 **My DeCal's website looks too wide**
+
 This is due to *page-yourdecalname.hbs* inheriting an old version of the theme. You can edit decalDefault.hbs to set the page width.
 
 **If all else fails**
+
 Contact John Lee through Slack and I will come help :)
