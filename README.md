@@ -1,1 +1,60 @@
 # decal-websites
+
+This repo contains course website templates for Micromouse, HOPE, and Cybersecurity DeCals.
+
+*Micromouse - https://ieee.berkeley.edu/micromouse *
+
+*Hands-On PCB Engineering (HOPE) - https://ieee.berkeley.edu/hope *
+
+*Cybersecurity - https://ieee.berkeley.edu/cybersecurity *
+
+Websites are developed for the darkweb theme (see IEEEBerkeley/darkweb for the theme).
+
+Last updated: Jan 14th, 2021 (Spring '21)
+
+## Files
+
+Raw HTML files and CSS are included in this repo. 
+See **instructions** on how to deploy it on Ghost.
+
+## Instructions
+
+This section contains instructions for 4 different cases as follows:
+
+a. Deploying HTML to Ghost
+
+b. Deploying CSS to Ghost (theme embed)
+
+c. Deploying CSS to Ghost (editor)
+
+d. Setting up a new semester's website (when the semester ends and the current website has to be archived)
+
+**Deploying HTML on Ghost**
+0. Access the Ghost editor through ieee.berkeley.edu/ghost.
+1. Copy the HTML section in *yourdecalname.html* (from <body> to </body>).
+2. Paste the selection into the Ghost editor. The page is named yourdecalname (semester). You can search your decal's website by filtering through tags.
+3. Save the editor and make sure it is published under the domain of ieee.berkeley.edu/*yourdecalname*.
+4. Now it's time to deploy the CSS on Ghost!
+
+**Deploying CSS on Ghost (theme embed)**
+
+The current darkweb theme in IEEEBerkeley/darkweb should already have the theme embedded, but just in case here it goes:
+
+1. Save decalwebsite.css into darkweb/assets/css
+2. Import the CSS by adding a <link rel="stylesheet" type="text/css" href="{{asset 'css/decalwebsite.css'}}"> to the first block of the Ghost editor.
+
+**Deploying CSS on Ghost (editor)**
+
+If the CSS is already theme embedded, don't worry about this part.
+
+1. Paste the CSS contents in *yourdecalname.html* into the first block of the Ghost editor (from <style> to </style>).
+
+**Setting up a new semester's website**
+
+It is recommended to contact a website team for this but the steps are as following:
+
+1. Git clone IEEEBerkeley/darkweb onto your local computer
+2. Create a new file called *yourdecalname*
+2. 
+
+## Troubleshooting / FAQ
