@@ -2,11 +2,11 @@
 
 This repo contains course website templates for Micromouse, HOPE, and Cybersecurity DeCals.
 
-**Micromouse - ieee.berkeley.edu/micromouse**
+**Micromouse** - ieee.berkeley.edu/micromouse
 
-**Hands-On PCB Engineering (HOPE) - ieee.berkeley.edu/hope**
+**Hands-On PCB Engineering (HOPE)** - ieee.berkeley.edu/hope
 
-**Cybersecurity - ieee.berkeley.edu/cybersecurity**
+**Cybersecurity** - ieee.berkeley.edu/cybersecurity
 
 Websites are developed for the darkweb theme. See github.com/IEEEBerkeley/darkweb for the theme. Check the decal branch for the most recent decal-related development version.
 
