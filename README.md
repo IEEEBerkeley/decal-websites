@@ -31,6 +31,7 @@ c. Deploying CSS to Ghost (editor)
 d. Setting up a new semester's website (when the semester ends and the current website has to be archived)
 
 **Deploying HTML on Ghost**
+
 0. Access the Ghost editor through ieee.berkeley.edu/ghost.
 1. Copy the HTML section in *yourdecalname.html* (from body to /body).
 2. Paste the selection into the Ghost editor. The page is named yourdecalname (semester). You can search your decal's website by filtering through tags.
