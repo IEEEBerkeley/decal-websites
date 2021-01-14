@@ -72,7 +72,7 @@ This is probably due to CSS conflicts. If the theme's CSS classes and decalwebsi
 
 **My DeCal's website looks too wide**
 
-This is due to *page-yourdecalname.hbs* inheriting an old version of the theme. You can edit decalDefault.hbs to set the page width.
+This is due to *page-yourdecalname.hbs* inheriting an old version of the theme. You can edit decalDefault.hbs to set the page width. You can also replace the old *page-yourdecalname.hbs* and decalDefault.hbs with the one in this repo. 
 
 **If all else fails**
 
