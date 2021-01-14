@@ -12,9 +12,14 @@ Websites are developed for the darkweb theme. See https://github.com/IEEEBerkele
 
 Last updated: Jan 14th, 2021 (Spring '21)
 
+## Preview
+
+
+
 ## Files
 
-Raw HTML files and CSS are included in this repo. 
+Raw HTML, CSS, and relevant Handlebars files are included in this repo. Previous versions saved under each semester's folder name.
+
 See **instructions** on how to deploy it on Ghost.
 
 ## Instructions
@@ -30,8 +35,9 @@ c. Deploying CSS to Ghost (editor)
 d. Setting up a new semester's website (when the semester ends and the current website has to be archived)
 
 **Deploying HTML on Ghost**
+
 0. Access the Ghost editor through ieee.berkeley.edu/ghost.
-1. Copy the HTML section in *yourdecalname.html* (from <body> to </body>).
+1. Copy the HTML section in *yourdecalname.html* (from body to /body).
 2. Paste the selection into the Ghost editor. The page is named yourdecalname (semester). You can search your decal's website by filtering through tags.
 3. Save the editor and make sure it is published under the domain of ieee.berkeley.edu/*yourdecalname*.
 4. Now it's time to deploy the CSS on Ghost!
